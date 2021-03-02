@@ -1,0 +1,26 @@
+#conteneur
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #444
+  }
+  .element
+  {
+    width: 100px;
+    height: 35px;
+    flex: 1;
+    border-radius: 10px;
+      }
+.element:nth-child(1)
+{
+  margin:auto;
+  background-color:#D3D3D3
+  flex: 1;
+}
+.element:nth-child(2)
+{
+  margin:auto;
+  background-color: #D3D3D3;
+  }
